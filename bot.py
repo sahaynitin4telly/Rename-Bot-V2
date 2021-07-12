@@ -32,7 +32,7 @@ ADL_BOT_RQ = {}
 START_TEXT = """
 Hello {},\nI'm a Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support. 🔥
 
-Made by Mr. @Dlaize
+Made with 💕 by. @sahaynitin28
 """
 HELP_TEXT = """
 <b><u>Rename</u></b>
@@ -48,21 +48,21 @@ HELP_TEXT = """
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb for view current thumbnail.
 
-Made by @Dlaize
+Made by @sahaynitin28
 """
 ABOUT_TEXT = """
 **🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/Dlaize)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/compass_botz)
-**🎗️ Source :** [Click here](https://github.com/dakshkohli23/Rename-Bot-V2)
+**🎗️ Creator :** [Dlaize](https://telegram.me/tellyfun4u)
+**🎗️ Channel :** [Compass Bots](https://telegram.me/tellyfun4u)
+**🎗️ Source :** [Click here](https://github.com/sahaynitin4telly/Rename-Bot-V2)
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **🎗️ Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Index Channel', url='https://telegram.me/cartoon_seriesz'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/Dlaize')
+        InlineKeyboardButton('Index Channel', url='https://telegram.me/tellyfun4u'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/sahaynitin28')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
@@ -320,7 +320,7 @@ async def rename(bot, message):
                     video=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡ Join Updates Channel ⚡', url='https://telegram.me/cartoon_seriesz')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡ Join Updates Channel ⚡', url='https://telegram.me/tellyfun4u')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<b>Uploading 📤</b>\n", a, c_time)
