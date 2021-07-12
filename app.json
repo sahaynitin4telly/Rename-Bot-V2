@@ -3,7 +3,7 @@
   "description": "A Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support",
   "keywords": ["telegram", "rename", "pyrogram", "rename-bot"],
   "success_url": "https://github.com/dakshkohli23",
-  "website": "https://github.com/dakshkohli23/Rename-Bot-V2",
+  "website": "https://github.com/sahaynitin4telly/Rename-Bot-V2",
   "repository": "https://github.com/dakshkohli23/Rename-Bot-V2",
   "env": {
     "WEBHOOK": {
