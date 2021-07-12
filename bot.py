@@ -52,8 +52,8 @@ Made by @sahaynitin28
 """
 ABOUT_TEXT = """
 **🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/tellyfun4u)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/tellyfun4u)
+**🎗️ Creator :** [tellyfun4u](https://telegram.me/tellyfun4u)
+**🎗️ Channel :** [tellyfun4u](https://telegram.me/tellyfun4u)
 **🎗️ Source :** [Click here](https://github.com/sahaynitin4telly/Rename-Bot-V2)
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
